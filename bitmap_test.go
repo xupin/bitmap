@@ -7,7 +7,7 @@ import (
 )
 
 func TestBitMap(t *testing.T) {
-	bm := bitmap.NewBitMap(8)
+	bm := bitmap.New(8)
 
 	t.Logf("初始位图: %08b", bm.GetBits())
 
